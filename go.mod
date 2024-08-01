@@ -1,4 +1,4 @@
-module test
+module github.com/bugzzhou/gotools
 
 go 1.21.9
 
