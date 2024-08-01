@@ -2,8 +2,6 @@ package main
 
 import (
 	"fmt"
-	"test/gotools/log"
-	"time"
 )
 
 type Inventory struct {
@@ -16,13 +14,6 @@ type Test []int
 func main() {
 	// TdEngine的访问+操作 demo
 	// td.TdSample()
-
-	for {
-		time.Sleep(1 * time.Second)
-
-		level, msg := log.GetRandLevelAndMsg()
-		log.Log(level, msg)
-	}
 
 }
 
